@@ -16,6 +16,8 @@
 		000B0F471EFB1A7F00DB79D2 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B0F461EFB1A7F00DB79D2 /* ItemsViewController.swift */; };
 		000B0F491EFB1B4800DB79D2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B0F481EFB1B4800DB79D2 /* Item.swift */; };
 		000B0F4B1EFB20F000DB79D2 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000B0F4A1EFB20F000DB79D2 /* ItemStore.swift */; };
+		001D47E01EFD5A6100E261CD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D47DF1EFD5A6100E261CD /* ItemCell.swift */; };
+		001D47E21EFD6FEA00E261CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D47E11EFD6FEA00E261CD /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		000B0F461EFB1A7F00DB79D2 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsViewController.swift; path = ../ItemsViewController.swift; sourceTree = "<group>"; };
 		000B0F481EFB1B4800DB79D2 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		000B0F4A1EFB20F000DB79D2 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		001D47DF1EFD5A6100E261CD /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		001D47E11EFD6FEA00E261CD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 			children = (
 				000B0F181EFB19D800DB79D2 /* AppDelegate.swift */,
 				000B0F461EFB1A7F00DB79D2 /* ItemsViewController.swift */,
+				001D47DF1EFD5A6100E261CD /* ItemCell.swift */,
 				000B0F1C1EFB19D800DB79D2 /* Main.storyboard */,
+				001D47E11EFD6FEA00E261CD /* DetailViewController.swift */,
 				000B0F481EFB1B4800DB79D2 /* Item.swift */,
 				000B0F4A1EFB20F000DB79D2 /* ItemStore.swift */,
 				000B0F1F1EFB19D800DB79D2 /* Assets.xcassets */,
@@ -268,7 +274,9 @@
 				000B0F471EFB1A7F00DB79D2 /* ItemsViewController.swift in Sources */,
 				000B0F491EFB1B4800DB79D2 /* Item.swift in Sources */,
 				000B0F4B1EFB20F000DB79D2 /* ItemStore.swift in Sources */,
+				001D47E21EFD6FEA00E261CD /* DetailViewController.swift in Sources */,
 				000B0F191EFB19D800DB79D2 /* AppDelegate.swift in Sources */,
+				001D47E01EFD5A6100E261CD /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +523,7 @@
 				000B0F3F1EFB19D800DB79D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000B0F401EFB19D800DB79D2 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				000B0F421EFB19D800DB79D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000B0F431EFB19D800DB79D2 /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +541,7 @@
 				000B0F451EFB19D800DB79D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
