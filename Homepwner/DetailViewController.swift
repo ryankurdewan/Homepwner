@@ -73,14 +73,16 @@ class DetailViewController: UIViewController, UITextFieldDelegate,
         textField.resignFirstResponder()
         return true
     }
-    func imagePickerControllger(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]){
+    func imagePickerController(_ picker: UIImagePickerController,
+            didFinishPickingMediaWithInfo info: [String: Any]) {
         // Get picked image from info dictionary
         let image = info[UIImagePickerControllerOriginalImage] as! UIImage
         // Store the image in the ImageStore for the item's key
-        ImageStore.setImage(image, forKey: item.itemKey)
-        // Put that image on the screen in the image view
+        imageStore.setImage(image, forKey: item.itemKey)
+        // Put that image onto the screen in our image view
         imageView.image = image
-        // Take image picker off screen
+        // Take image picker off the screen -
+        // you must call this dismiss method
         dismiss(animated: true, completion: nil)
     }
     override func viewWillDisappear(_ animated: Bool) {
